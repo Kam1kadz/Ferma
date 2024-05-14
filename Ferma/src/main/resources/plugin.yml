@@ -1,0 +1,12 @@
+name: Ferma
+version: '${project.version}'
+main: coder.kam1kadzdev.ferma.Ferma
+api-version: '1.16'
+commands:
+  ferma:
+    description: Открывает меню выращивания
+
+permissions:
+  ferma.reload:
+    description: Возможность перезагрузки плагина на гуи фермы
+    default: op
